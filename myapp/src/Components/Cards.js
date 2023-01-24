@@ -1,5 +1,10 @@
 import React from 'react'
 
+const onsale = {
+    top: '0.5rem',
+    right: '0.5rem'
+}
+
 const Cards = () => {
     return (
         <div class="py-5">
@@ -22,7 +27,7 @@ const Cards = () => {
                     <div class="col mb-5">
                         <div class="card h-100">
 
-                            <div class="badge bg-dark text-white position-absolute">Sale</div>
+                            <div class="badge bg-dark text-white position-absolute" style={onsale}>Sale</div>
 
                             <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
 
@@ -52,7 +57,7 @@ const Cards = () => {
                     <div class="col mb-5">
                         <div class="card h-100">
 
-                            <div class="badge bg-dark text-white position-absolute">Sale</div>
+                            <div class="badge bg-dark text-white position-absolute" style={onsale}>Sale</div>
 
                             <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
 
@@ -94,7 +99,7 @@ const Cards = () => {
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <div class="badge bg-dark text-white position-absolute">Sale</div>
+                            <div class="badge bg-dark text-white position-absolute" style={onsale}>Sale</div>
 
                             <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
 
@@ -134,7 +139,7 @@ const Cards = () => {
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <div class="badge bg-dark text-white position-absolute">Sale</div>
+                            <div class="badge bg-dark text-white position-absolute" style={onsale}>Sale</div>
 
                             <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
 

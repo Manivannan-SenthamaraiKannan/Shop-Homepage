@@ -1,16 +1,16 @@
-import Footer from './Components/Footer';
+import './App.css';
 import Header from './Components/Header';
 import PageHeader from './Components/PageHeader';
 import Cards from './Components/Cards'
-import './App.css';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <PageHeader/>
-      <Cards/>
-      <Footer/>
+    <div className='App'>
+      <Header />
+      <PageHeader />
+      <Cards />
+      <Footer />
     </div>
   );
 }
